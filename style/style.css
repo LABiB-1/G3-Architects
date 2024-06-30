@@ -134,8 +134,74 @@ main {
 .teams-content-description{
     color:#727272;
     font-weight: 400;
-    line-height: 1.5rem;
+    line-height: 1.5rem;   
+}
+/* features section */
+.features{
+    display: flex;
+    margin-top: 8rem;
+    margin-bottom: 11rem;
+ 
+}
+.features-title{
+    color:#131313;
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 0.5rem solid #FF900E;
+    padding-left: 1.3rem;
+}
+.features-description{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem; /* 162.5% */
+    width: 36.6rem;
+}
+.features-content .card{
+    width: 586px;
+    height: 171px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 1rem 2rem 1rem 1rem;
+    margin-bottom: 1.25rem;
+}
+.features-card-title{
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+}
+.feature-image{
+    margin-left: 146px;
+}
+.feature-image img{
+    width: 708px;
+    height: 982px;
+}
+.Experience-of-10years{
+    width: 21.3rem;
+    height: 12.5rem;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 46px 42px 45px 42px;
+    position: relative;
+    bottom: 6.25rem;
+    right: 5.75rem;
     
+}
+.ten-years{
+    color: #FFF;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 70px; /* 107.692% */
+    margin-bottom: 0px;
+}
+.experience{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
 }
 
 /* some facts section */
